@@ -21,7 +21,7 @@ interface DietService {
 }
 
 private val retrofit = Retrofit.Builder()
-    .baseUrl("https://fitapi-perfect.onrender.com")
+    .baseUrl("https://fitapi-perfect.onrender.com") // replace with your fitapi url
     .addConverterFactory(GsonConverterFactory.create())
     .build()
 
